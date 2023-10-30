@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DattApplication<datt>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "poly.edu.datt.DattApplication",
+            "projectName": "datt",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
