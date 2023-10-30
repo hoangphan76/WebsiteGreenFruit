@@ -1,0 +1,57 @@
+/* CSS cho thanh menu */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  background-size: cover;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+
+.img {
+ width: 30%;
+ margin-left: 30%;
+}
+
+.menu-con {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  margin-top: 1%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: rgb(11, 0, 0);
+  /* Màu chữ của các mục menu (ví dụ: trắng) */
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.menu-item a:hover {
+  background-color: plum;
+  text-decoration: none;
+  /* Màu nền khi di chuột vào (ví dụ: đen nhạt có độ trong suốt) */
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #555a5e;
+  color: #fff;
+} 
+

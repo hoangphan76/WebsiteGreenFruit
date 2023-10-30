@@ -1,0 +1,30 @@
+<div class="menu" xmlns:th="http://www.thymeleaf.org" >
+    <a class="logo " th:href="@{/}">
+        <img th:src="@{/assets/images/logo.png}" alt="" class="img">
+    </a>
+    <div class="menu-con container">
+        <div class="menu-item">
+            <a  th:href="@{/}">TRANG CHỦ</a>
+        </div>
+        <div class="menu-item">
+            <a th:href="@{/movie/list}">SẢN PẨM</a>
+        </div>
+        <div class="menu-item">
+            <a th:href="@{/product/detail}">KHUYẾN MÃI</a>
+        </div>
+
+        <div class="menu-item">
+            <a th:href="@{/news}">TIN TỨC</a>
+        </div>
+        <div class="menu-item">
+            <a th:href="@{/contact}">LIÊN HỆ</a>
+        </div>
+    </div>
+    <div style="margin-right: 3%;">
+        <a type="button" class="btn btn-default" data-toggle="modal" data-target="#login"><h4><i class="fa-solid fa-user"></i></h4></a>
+    </div>
+    
+    <div style="margin-right: 3%;">
+        <a type="button" class="btn btn-default" ><h4><i class="fa-solid fa-cart-shopping"></i></h4></a>
+    </div>
+</div>
